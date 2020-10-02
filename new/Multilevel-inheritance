@@ -1,0 +1,15 @@
+
+class Mother():
+    def __init__(self):
+        print("Hello ",end="")
+
+
+class Aunty(Mother):
+    pass
+
+
+class Dauther(Aunty):
+    def __init__(self):
+        super().__init__()
+        print("World")
+mom=Dauther()
